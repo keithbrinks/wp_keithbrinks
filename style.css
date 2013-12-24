@@ -251,6 +251,31 @@ a:hover { color: #006699; }
 				font-weight: bold;
 			}
 
+#kb_page_nav {
+	text-align: center;
+}
+
+	#kb_page_nav .pages {
+		display: none;
+	}
+	
+	#kb_page_nav a, #kb_page_nav .current {
+		background-color: #3399cc;
+		box-shadow: 1px 1px 0 #336699;
+		color: #ffffff;
+		margin: 5px;
+		padding: 5px 10px;
+	}
+	
+	#kb_page_nav .current {
+		background-color: #000000;
+		box-shadow: none;
+	}
+	
+	#kb_page_nav a:hover {
+		background-color: #66ccff;
+	}
+
 /**
  * Misc.
  */
