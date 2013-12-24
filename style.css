@@ -300,6 +300,7 @@ a:hover { color: #006699; }
 	}
 	
 	.post {
+		margin-bottom: 20px;
 		padding: 20px;
 	}
 	
@@ -318,10 +319,6 @@ a:hover { color: #006699; }
 	
 	#kb_site_container {
 		padding: 0;
-	}
-	
-	.post {
-		margin-bottom: 40px;
 	}
 
 }
