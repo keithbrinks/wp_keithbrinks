@@ -19,6 +19,7 @@ a { text-decoration: none; outline: none; }
  * Main Layout Structure
  */
 body {
+	background-color: #f1f1f1;
 	font: 300 18px/1.5 'Lato', sans-serif, arial;
 	padding: 0 20px;
 }
@@ -127,7 +128,10 @@ a:hover { color: #006699; }
  * Blog Specific
  */
 .post {
-	margin-bottom: 60px;
+	background-color: #ffffff;
+	box-shadow: 1px 1px 0 #dddddd;
+	margin-bottom: 40px;
+	padding: 40px;
 	position: relative;
 }
 
@@ -199,9 +203,8 @@ a:hover { color: #006699; }
 	
 /* Post Format: Quote */
 .format-quote {
-	background-color: #f1f1f1;
-	box-shadow: 2px 2px 0 #c0c0c0, 1px 1px 0 #c0c0c0, 2px 2px 0 #c0c0c0;
-	padding: 20px;
+	background-color: #c0c0c0;
+	box-shadow: 1px 1px 0 #808080;
 }
 
 	.format-quote cite {
@@ -216,15 +219,13 @@ a:hover { color: #006699; }
 /* Post Format: Status */
 .format-status {
 	background-color: #ffffcc;
-	box-shadow: 2px 2px 0 #cccc66, 1px 1px 0 #cccc66, 2px 2px 0 #cccc66;
-	padding: 20px;
+	box-shadow: 1px 1px 0 #cccc66;
 }
 
 /* Post Format: Link */
 .format-link {
 	background-color: #3399cc;
-	box-shadow: 2px 2px 0 #336699, 1px 1px 0 #336699, 2px 2px 0 #336699;
-	padding: 20px;
+	box-shadow: 1px 1px 0 #336699;
 }
 
 	.post_header {
