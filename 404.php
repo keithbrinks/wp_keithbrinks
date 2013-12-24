@@ -4,7 +4,7 @@
 
 		<main id="kb_main_area">
 
-			<h1>404 - Page Not Found</h1>
+			<h2 class="page_title">404 - Page Not Found</h2>
 			
 			<div class="post_content">
 				
