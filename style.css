@@ -129,6 +129,7 @@ a:hover { color: #006699; }
  */
 .post {
 	background-color: #ffffff;
+	border-top: 2px solid #000000;
 	box-shadow: 1px 1px 0 #dddddd;
 	margin-bottom: 40px;
 	padding: 40px;
@@ -136,11 +137,15 @@ a:hover { color: #006699; }
 }
 
 	.post_header {
+		border-bottom: 1px solid #dddddd;
 		margin-bottom: 20px;
+		padding-bottom: 20px;
+		text-align: center;
 	}
 
 		.post_title a {
 			color: #000000;
+			font-weight: normal;
 		}
 		
 		.post_title a:hover {
@@ -148,9 +153,9 @@ a:hover { color: #006699; }
 		}
 		
 		.post_meta {
-			color: #808080;
-			font-size: 0.8em;
-			line-height: normal;
+			color: #c0c0c0;
+			font-size: 0.9em;
+			text-transform: uppercase;
 		}
 		
 	.post_content {
@@ -197,57 +202,54 @@ a:hover { color: #006699; }
 		max-width: 100%;
 	}
 	
-.format-status .post_header, .format-quote .post_header, .format-status p, .format-quote p {
-	margin: 0;
-}
-	
-/* Post Format: Quote */
-.format-quote {
-	background-color: #c0c0c0;
-	box-shadow: 1px 1px 0 #808080;
-}
-
-	.format-quote cite {
-		font-size: 0.7em;
-	}
-
-	.format-quote .post_content {
-		font-size: 1.5em;
-		font-style: italic;
-	}
-
-/* Post Format: Status */
-.format-status {
-	background-color: #ffffcc;
-	box-shadow: 1px 1px 0 #cccc66;
-}
-
-/* Post Format: Link */
-.format-link {
-	background-color: #3399cc;
-	box-shadow: 1px 1px 0 #336699;
-}
-
-	.post_header {
-		margin-bottom: 10px;
-	}
-
-	.format-link a, .format-link .post_title a:hover {
-		color: #ffffff;
+	/* Format: Link */
+	.format-link {
+		border-top-color: #99ccff;
 	}
 	
-	.format-link .post_meta, .format-link .sharedaddy {
-		color: #f1f1f1;
-	}
-
-	.format-link .post_content a {
-		border-bottom: 1px dotted #ffffff;
+		.format-link .post_title {
+			display: none;
+		}
+		
+		.format-link .post_content {
+			text-align: center;
+		}
+		
+			.format-link .post_content a {
+				background-color: #99ccff;
+				border-radius: 5px;
+				color: #ffffff;
+				padding: 5px 10px;
+			}
+			
+			.format-link .post_content a:hover {
+				background-color: #3399ff;
+			}
+			
+	/* Format: Quote */
+	.format-quote {
+		border-top-color: #cc99ff;
 	}
 	
-	.format-link .post_content a:hover {
-		background-color: #66ccff;
-	}
-	
+		.format-quote .post_title {
+			display: none;
+		}
+		
+		.format-quote blockquote {
+			font-size: 1.5em;
+			font-style: italic;	
+			text-align: center;
+		}
+		
+			.format-quote blockquote p {
+				margin: 0;
+			}
+		
+			.format-quote blockquote cite {
+				font-size: 0.7em;
+				font-style: normal;
+				font-weight: bold;
+			}
 
 /**
  * Misc.
