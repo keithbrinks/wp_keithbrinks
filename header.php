@@ -31,26 +31,22 @@
 <body <?php body_class(); ?>>
 
 	<div id="kb_site_wrap">
-	
-		<div id="left_column">
 
-			<header id="kb_site_header">
-			
-				<h1 id="kb_site_logo"><a class="home-link" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo('name'); ?></a></h1>
-			
-				<ul id="social_links">
-					<li class="facebook"><a href="http://facebook.com/keithbrinks" title="Facebook">Facebook</a></li>
-					<li class="twitter"><a href="http://twitter.com/keithbrinks" title="Twitter">Twitter</a></li>
-					<li class="linkedin"><a href="http://www.linkedin.com/in/keithbrinks" title="LinkedIn">LinkedIn</a></li>
-					<li class="steam"><a href="http://steamcommunity.com/id/Stargater59" title="Steam Community">Steam</a></li>
-				</ul>
-			
-				<nav id="kb_site_nav">
-					<?php wp_nav_menu( array( 'theme_location' => 'primary') ); ?>
-				</nav>
-			
-			</header><!-- /kb_site_header -->
-			
-		</div><!-- /left_column -->
+		<header id="kb_site_header">
+		
+			<h1 id="kb_site_logo"><a class="home-link" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo('name'); ?></a></h1>
+		
+			<ul id="social_links">
+				<li class="facebook"><a href="http://facebook.com/keithbrinks" title="Facebook">Facebook</a></li>
+				<li class="twitter"><a href="http://twitter.com/keithbrinks" title="Twitter">Twitter</a></li>
+				<li class="linkedin"><a href="http://www.linkedin.com/in/keithbrinks" title="LinkedIn">LinkedIn</a></li>
+				<li class="steam"><a href="http://steamcommunity.com/id/Stargater59" title="Steam Community">Steam</a></li>
+			</ul>
+		
+			<nav id="kb_site_nav">
+				<?php wp_nav_menu( array( 'theme_location' => 'primary') ); ?>
+			</nav>
+		
+		</header><!-- /kb_site_header -->
 		
 		<div id="kb_site_container">
