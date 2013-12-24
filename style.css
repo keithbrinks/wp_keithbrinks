@@ -219,6 +219,7 @@ a:hover { color: #006699; }
 				background-color: #99ccff;
 				border-radius: 5px;
 				color: #ffffff;
+				display: block;
 				padding: 5px 10px;
 			}
 			
