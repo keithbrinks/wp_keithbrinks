@@ -324,5 +324,9 @@ a:hover { color: #006699; }
 }
 
 @media screen and (max-width: 640px) {
-	h1 { font-size: 2.3em; }
+	
+	body {
+		margin: 10px;
+	}
+
 }
