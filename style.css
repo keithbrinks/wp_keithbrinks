@@ -95,11 +95,15 @@ a:hover { color: #006699; }
 		color: #006699;
 	}
 	
-	#social_links li {
-		display: inline;
-		font-size: 32px;
-		list-style: none;
+	#social_links {
+		margin-bottom: 10px;
 	}
+	
+		#social_links li {
+			display: inline;
+			font-size: 32px;
+			list-style: none;
+		}
 			
 	#kb_site_nav li {
 		display: inline;
