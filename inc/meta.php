@@ -4,11 +4,13 @@
 </div>
 
 <div class="post_format">
+	<span>
 	<?php 
 		$format = get_post_format();
 		if (false === $format)
-			$format = 'standard';
+			$format = 'post';
 			
 		echo $format;
 	?>
+	</span>
 </div>
