@@ -158,19 +158,16 @@ a:hover { color: #006699; }
 			text-transform: uppercase;
 		}
 		
-		.post_category {
+		.post_format {
+			background-color: #000000;
+			color: #ffffff;
+			font-size: 0.6em;
 			line-height: normal;
+			padding: 5px;
 			position: absolute;
 				top: -2px;
+			text-transform: uppercase;
 		}
-		
-			.post_category a {
-				background-color: #000000;
-				color: #ffffff;
-				font-size: 0.6em;
-				padding: 5px;
-				text-transform: uppercase;
-			}
 		
 	.post_content {
 		word-wrap: break-word;

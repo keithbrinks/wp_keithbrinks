@@ -2,6 +2,10 @@
 	Posted <a href="<?php the_permalink(); ?>" title="Permalink to <?php the_title(); ?>"><?php the_time('F jS, Y') ?></a>
 </div>
 
-<div class="post_category">
-	<?php the_category(', '); ?>
+<div class="post_format">
+	<?php 
+		$format = get_post_format();
+		
+		echo $format;
+	?>
 </div>
