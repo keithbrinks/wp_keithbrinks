@@ -23,10 +23,36 @@
 			<h1 id="kb_site_logo"><a class="home-link" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo('name'); ?></a></h1>
 		
 			<ul id="social_links">
-				<li class="facebook"><a href="http://facebook.com/keithbrinks" title="Facebook">Facebook</a></li>
-				<li class="twitter"><a href="http://twitter.com/keithbrinks" title="Twitter">Twitter</a></li>
-				<li class="linkedin"><a href="http://www.linkedin.com/in/keithbrinks" title="LinkedIn">LinkedIn</a></li>
-				<li class="steam"><a href="http://steamcommunity.com/id/Stargater59" title="Steam Community">Steam</a></li>
+				<li class="facebook">
+					<a href="http://facebook.com/keithbrinks" title="Facebook">
+						<span data-icon=""></span>
+						<span class="screen-reader-text">Facebook</span>
+					</a>
+				</li>
+				<li class="twitter">
+					<a href="http://twitter.com/keithbrinks" title="Twitter">
+						<span data-icon=""></span>
+						<span class="screen-reader-text">Twitter</span>
+					</a>
+				</li>
+				<li class="linkedin">
+					<a href="http://linkedin.com/in/keithbrinks" title="LinkedIn">
+						<span data-icon=""></span>
+						<span class="screen-reader-text">LinkedIn</span>						
+					</a>
+				</li>
+				<li class="github">
+					<a href="http://github.com/keithbrinks" title="GitHub">
+						<span data-icon=""></span>
+						<span class="screen-reader-text">GitHub</span>						
+					</a>
+				</li>
+				<li class="steam">
+					<a href="http://steamcommunity.com/id/Stargater59" title="Steam Community">
+						<span data-icon=""></span>
+						<span class="screen-reader-text">Steam</span>						
+					</a>
+				</li>
 			</ul>
 		
 			<nav id="kb_site_nav">
