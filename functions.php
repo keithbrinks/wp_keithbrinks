@@ -9,7 +9,7 @@ function keithbrinks_setup() {
 	add_theme_support('automatic-feed-links');
 	
 	// Add support for post formats
-	add_theme_support('post-formats', array('aside', 'link', 'image', 'quote', 'status', 'video', 'audio'));
+	add_theme_support('post-formats', array('link', 'quote', 'image', 'gallery', 'video'));
 	
 	// Register nav menu
 	register_nav_menu( 'primary', __( 'Primary Navigation Menu', 'keithbrinks') );
