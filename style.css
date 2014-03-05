@@ -1,7 +1,7 @@
 /*
 	Theme Name: Keith Brinks
 	Description: 5th major redesign of keithbrinks.com
-	Version: 5.1
+	Version: 5.2
 	Author: Keith Brinks
 	Author URI: http://keithbrinks.com
 */
@@ -80,20 +80,52 @@ a:hover { color: #006699; }
  * Header
  */
 #kb_site_header {
-	border-right: 1px solid #dddddd;
-	padding: 20px 0;
 	position: fixed;
 	width: 340px;
-} 
+}
+
+	#kb_site_logo {
+		font-size: 1.8em;
+		font-weight: 400;
+		margin-bottom: 20px;
+	}
  
-	#kb_site_logo a {
-		color: #000000;
-		text-transform: uppercase;
+		#kb_site_logo a {
+			color: #000000;
+			text-transform: uppercase;
+		}
+		
+		#kb_site_logo a:hover {
+			color: #006699;
+		}
+	
+	#kb_site_nav li {
+		list-style: none;
+		margin-bottom: 5px;
 	}
 	
-	#kb_site_logo a:hover {
-		color: #006699;
-	}
+		#kb_site_nav li a {
+			background-color: #ffffff;
+			box-shadow: 1px 1px 0 #dddddd;
+			color: #000000;
+			display: block;
+			font-size: 0.9em;
+			font-weight: 400;
+			padding: 10px;
+			text-transform: uppercase;
+		}
+		
+		#kb_site_nav li a:hover {
+			color: #6699cc;
+		}
+		
+		#kb_site_nav li.current-menu-item a, #kb_site_nav li.current-menu-parent a {
+			background-color: #6699cc;
+			color: #ffffff;
+		}
+		
+		#kb_site_nav li.current-menu-item a:hover, #kb_site_nav li.current-menu-parent a:hover {
+		}
 	
 	#social_links {
 		margin-bottom: 10px;
@@ -104,35 +136,18 @@ a:hover { color: #006699; }
 			font-size: 32px;
 			list-style: none;
 		}
-			
-	#kb_site_nav li {
-		display: inline;
-		margin-right: 10px;
-	}
-	
-		#kb_site_nav li a {
-			color: #808080;
-			font-size: 0.9em;
-			text-transform: uppercase;
-		}
 		
-		#kb_site_nav li a:hover {
-			color: #000000;
-		}
-		
-		#kb_site_nav li.current-menu-item a, #kb_site_nav li.current-menu-parent a {
-			color: #ff9900;
-		}
-		
-		#kb_site_nav li.current-menu-item a:hover, #kb_site_nav li.current-menu-parent a:hover {
-			color: #996600;
-		}	
+			#social_links li.facebook a { color: #3c5a99; }
+			#social_links li.twitter a { color: #2da8e0; }
+			#social_links li.linkedin a { color: #0473a4; }
+			#social_links li.github a { color: #4083c4; }
+			#social_links li.steam a { color: #000000; }
 
 /**
  * Container
  */
 #kb_site_container {
-	padding: 20px 0 0 380px;
+	padding-left: 380px;
 }
 
 
@@ -368,26 +383,27 @@ a:hover { color: #006699; }
 }
 
 @media screen and (max-width: 800px) {
+
+	body {
+		margin: 10px;
+	}
 	
 	#kb_site_header {
-		border-bottom: 1px solid #dddddd;
-		border-right: none;
-		padding: 0 0 20px;
 		position: relative;
 		margin-bottom: 20px;
 		width: auto;
 	}
 	
+	#kb_site_logo {
+		margin-bottom: 10px;
+	}
+	
+	#kb_site_nav li a {
+		font-size: .8em;
+	}
+	
 	#kb_site_container {
 		padding: 0;
-	}
-
-}
-
-@media screen and (max-width: 640px) {
-	
-	body {
-		margin: 10px;
 	}
 
 }
