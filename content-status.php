@@ -13,7 +13,7 @@
 			<?php the_excerpt(); ?>
 		</div>
 		<?php else : ?>
-		<div class="post_content">
+		<div class="post_content entry">
 			<?php the_content(); ?>
 		</div>
 		<?php endif; ?>
