@@ -1,7 +1,7 @@
 /*
 	Theme Name: Keith Brinks
 	Description: 5th major redesign of keithbrinks.com
-	Version: 5.2.1
+	Version: 5.2.2
 	Author: Keith Brinks
 	Author URI: http://keithbrinks.com
 */
@@ -360,6 +360,21 @@ a:hover { color: #006699; }
 	border-top: 2px solid #000000;
 	box-shadow: 1px 1px 0 #dddddd;
 	padding: 40px;
+}
+
+/**
+ * Forms
+ */
+input[type='text'], input[type='email'], textarea {
+	border: 1px solid #dddddd;
+	border-bottom-width: 5px;
+	font-size: 0.8em;
+	padding: 10px;
+}
+
+input[type='text']:focus, input[type='email']:focus, textarea:focus {
+	border-bottom-color: #ff9900;
+	outline: none;
 }
 
 /**
