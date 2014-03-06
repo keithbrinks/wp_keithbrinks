@@ -251,6 +251,11 @@ a:hover { color: #006699; }
 		height: auto;
 	}
 	
+	.entry img.alignright {
+		float: right;
+		margin: 0 0 20px 20px;
+	}
+	
 	.wp-caption {
 		font-size: 0.8em;
 		font-weight: bold;
