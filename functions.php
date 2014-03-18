@@ -44,7 +44,7 @@ add_filter('image_size_names_choose', 'keithbrinks_image_resize');
  */
 function keithbrinks_highlight_home_nav_item($classes, $item) {
 	
-	if (is_single() && $item->title == 'Home' || is_category() && $item->title == 'Home') {
+	if (is_single() && $item->title == 'Blog' || is_category() && $item->title == 'Blog') {
 		
 		$classes[] = 'current-menu-parent';
 		
