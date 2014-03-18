@@ -38,4 +38,21 @@ function keithbrinks_image_resize($sizes) {
 }
 add_filter('image_size_names_choose', 'keithbrinks_image_resize');
 
+/**
+ * Highlight blog nav menu item
+ * when viewing single.php or category.php
+ */
+function keithbrinks_highlight_home_nav_item($classes, $item) {
+	
+	if (is_single() && $item->title == 'Home' || is_category() && $item->title == 'Home') {
+		
+		$classes[] = 'current-menu-parent';
+		
+	}
+	
+	return $classes;
+	
+}
+add_filter('nav_menu_css_class', 'keithbrinks_highlight_home_nav_item', 10, 2);
+
 ?>
