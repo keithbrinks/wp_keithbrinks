@@ -395,11 +395,11 @@ input[type='text']:focus, input[type='email']:focus, textarea:focus {
 	}
 	
 	#kb_site_header {
-		width: 320px;
+		width: 280px;
 	}
 	
 	#kb_site_container {
-		padding-left: 340px;
+		padding-left: 300px;
 	}
 	
 	.post {
