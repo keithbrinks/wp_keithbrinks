@@ -1,14 +1,12 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-	<header class="post_header">
+	<header class="post-header">
 	
 		<h3 class="post_title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 		
-		<?php include('inc/meta.php'); ?>
-		
 	</header><!-- /post_header -->
 	
-	<div class="post_body">
+	<div class="post-body">
 		
 		<?php if ( is_search() ) : ?>
 		<div class="post_excerpt">
@@ -21,5 +19,7 @@
 		<?php endif; ?>
 	
 	</div><!-- /post_body -->
+	
+	<?php include('inc/meta.php'); ?>
 
 </article><!-- /post -->

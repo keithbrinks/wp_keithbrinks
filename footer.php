@@ -1,8 +1,8 @@
-		</div><!-- /kb_site_container -->
+		</div><!-- /inner_wrap -->
 	
-		<?php wp_footer(); ?>
+	</div><!-- /kb_site_container -->
 
-	</div><!-- /kb_site_wrap -->
+	<?php wp_footer(); ?>
 
 </body>
 </html>

@@ -4,7 +4,7 @@
 			
 		<article id="page" id="post-<?php the_ID(); ?>">
 		
-			<header id="page_header">
+			<header id="page-header">
 
 				<h2><?php the_title(); ?></h2>
 				
