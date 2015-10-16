@@ -1,4 +1,4 @@
 keithbrinks.com
 ===============
 
-WordPress theme files for my website: http://keithbrinks.com
+WordPress theme and build tools for my website: http://keithbrinks.com

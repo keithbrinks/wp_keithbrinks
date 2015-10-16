@@ -1,0 +1,11 @@
+{
+  "name": "keithbrinks",
+  "version": "1.0.0",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-cssmin": "^0.14.0",
+    "grunt-sass": "^1.0.0",
+    "grunt-shell": "^1.1.2",
+    "load-grunt-tasks": "^3.3.0"
+  }
+}
